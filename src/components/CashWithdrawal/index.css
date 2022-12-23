@@ -1,0 +1,110 @@
+* {
+  font-family: 'Roboto';
+  /* border: 2px solid white; */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.rupees-details-container {
+  background-color: #12073a;
+  padding: 32px;
+  border-radius: 10px;
+}
+
+.initial-container {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background-color: #c6d0f8;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.name {
+  color: #b4afd4;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.name-container {
+  display: flex;
+}
+
+.your-balance {
+  color: #524a74;
+  font-size: 18px;
+}
+
+.amount {
+  color: #c4c4c4;
+}
+
+.in-rupees {
+  color: #585076;
+  font-size: 15px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.with-draw {
+  color: #c6d0f8;
+}
+
+.sum-in-rupees {
+  color: #585076;
+  font-size: 15px;
+}
+
+.button {
+  background-color: #382f5a;
+  border: 1px solid #585076;
+  border-radius: 5px;
+  padding: 5px;
+  color: #c4c4c4;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons-column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.denominations-container {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.total-amount {
+  color: greenyellow;
+  text-align: center;
+}

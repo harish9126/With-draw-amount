@@ -1,0 +1,9 @@
+.denomination-item {
+  width: 50%;
+}
+
+.button {
+  min-width: 90%;
+  margin: 10px;
+  padding: 7px;
+}
